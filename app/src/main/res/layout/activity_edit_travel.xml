@@ -8,7 +8,7 @@
     tools:context=".EditTravelActivity">
 
     <EditText
-        android:id="@+id/editTextPlace"
+        android:id="@+id/editTextTravel"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Место"/>
@@ -22,6 +22,12 @@
         android:id="@+id/buttonSave"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Сохранить"/>
+        android:text="Сохранить название путешествия"/>
+    <Button
+        android:id="@+id/buttonSaveDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Сохранить дату путешествия"/>
 
 </LinearLayout>
